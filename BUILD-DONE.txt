@@ -1,0 +1,11 @@
+Meeting-to-Opportunity Engine local build verification
+Date: 2026-10-01
+Tests: 48 passed (python -m pytest -q)
+Local implementation commit hash: 9d5e97b73373fc3bdd94d66bb09ef35025f07fd3
+This hash identifies the implementation and tests; a following documentation commit adds this evidence file.
+Installed CLI end-to-end demo: 0.756303 seconds, measured locally across fixtures, run, report.
+Installed CLI report alone: 0.248510 seconds, measured locally.
+Synthetic measured acceptance: 200 records, 120 actions, 120 overdue actions, 40 records per outcome, GBP 4000.00 input-stated qualified amounts. All 120 expected action ids found; zero false positives and zero missing planted cases. Figures match independent hand-computed expectations exactly.
+Real-use accuracy: unmeasured. Time saved: unmeasured. Money saved: unmeasured. Final two-week verdict: pending.
+
+Built a deterministic local Python mtoe CLI with fixture generation, workflow execution, Markdown/JSON provenance reports, an action queue and explicit qualification selection. Pure core functions validate recorded outcomes and commitments, preserve evidence and sum exact stated GBP amounts without language models, predictions or network calls. The labelled synthetic fixtures, five-record example, adversarial pytest suite, atomic file writes, named errors, documentation, lessons and private real-use measurement hook provide a reviewable implementation. Build-stage verdict is provisional maintain as portfolio evidence; a real-use verdict must await Henry's two-week evidence window. No publishing was performed.
