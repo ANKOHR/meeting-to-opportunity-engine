@@ -1,0 +1,71 @@
+# SYNTHETIC fixture data; no real meetings or measured benefits
+{
+  "records": [
+    {
+      "amount": "100.00",
+      "as_of": "2026-09-30",
+      "currency": "GBP",
+      "due_date": "2026-09-29",
+      "id": "call-001",
+      "meeting_date": "2026-09-28",
+      "notes": "Requested a proposal for stated GBP 100.00.",
+      "outcome": "qualified",
+      "owner": "Henry",
+      "source": "synthetic_fixture",
+      "synthetic": true
+    },
+    {
+      "amount": "0.00",
+      "as_of": "2026-09-30",
+      "currency": "GBP",
+      "due_date": "2026-09-29",
+      "id": "call-002",
+      "meeting_date": "2026-09-28",
+      "notes": "Agreed follow-up.",
+      "outcome": "interested",
+      "owner": "Henry",
+      "source": "synthetic_fixture",
+      "synthetic": true
+    },
+    {
+      "amount": "0.00",
+      "as_of": "2026-09-30",
+      "currency": "GBP",
+      "due_date": "2026-09-29",
+      "id": "call-003",
+      "meeting_date": "2026-09-28",
+      "notes": "Needs technical information.",
+      "outcome": "needs_information",
+      "owner": "Henry",
+      "source": "synthetic_fixture",
+      "synthetic": true
+    },
+    {
+      "amount": "0.00",
+      "as_of": "2026-09-30",
+      "currency": "GBP",
+      "due_date": null,
+      "id": "call-004",
+      "meeting_date": "2026-09-28",
+      "notes": "Opportunity closed.",
+      "outcome": "closed",
+      "owner": "Henry",
+      "source": "synthetic_fixture",
+      "synthetic": true
+    },
+    {
+      "amount": "0.00",
+      "as_of": "2026-09-30",
+      "currency": "GBP",
+      "due_date": null,
+      "id": "call-005",
+      "meeting_date": "2026-09-28",
+      "notes": "Explicitly no fit.",
+      "outcome": "no_fit",
+      "owner": "Henry",
+      "source": "synthetic_fixture",
+      "synthetic": true
+    }
+  ],
+  "synthetic": true
+}
